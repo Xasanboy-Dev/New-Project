@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #26184B;
+    justify-content: center;
+    align-items: center;
+}
+    
+.bosh {
+    margin: 20% auto;
+    border: 2px groove #B2CF0D;
+    color: white;
+    border-radius: 3px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    margin-bottom: 25px;
+}
+
+button {
+    font-size: larger;
+    padding: 3px 5px;
+    color:#B2CF0D;
+    background-color: #26184B;
+}
+
+.name {
+    margin: 10% auto;
+    display: flex;
+    justify-content: center;
+    border: 2px groove white;
+    width: 75%;
+    height: 25%;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    width: 75%;
+    text-align: center;
+    font-size: larger;
+}
+
+.else {
+    font-size: 125%;
+    display: flex;
+    justify-content: center;
+}
+
+.if {
+    font-size: larger;
+    text-align: center;
+}
+
+.password {
+    margin: 15% auto;
+    display: flex;
+    justify-content: center;
+    border: 2px groove white;
+    width: 75%;
+    border-radius: 3px;
+    text-align: center;
+}
+
+mark {
+    border-radius: 2px;
+    margin-left: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width:550px) {
+    .bosh {
+        width: 550px;
+        ;
+        height: 350px;
+        border: 3px groove #B2CF0D;
+    }
+}
